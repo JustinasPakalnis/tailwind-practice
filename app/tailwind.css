@@ -1,7 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* @font-face {
+  font-family: "GothamSSm-Book";
+  src: url("./font/3ad5698dd1177785b94e84f04fd1632f.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+} */
 
+@font-face {
+  font-family: "GothamSSm-Book";
+  src: url("https://db.onlinewebfonts.com/t/3ad5698dd1177785b94e84f04fd1632f.eot");
+  src:
+    url("https://db.onlinewebfonts.com/t/3ad5698dd1177785b94e84f04fd1632f.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/3ad5698dd1177785b94e84f04fd1632f.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/3ad5698dd1177785b94e84f04fd1632f.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/3ad5698dd1177785b94e84f04fd1632f.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/3ad5698dd1177785b94e84f04fd1632f.svg#GothamSSm-Book")
+      format("svg");
+}
 html,
 body {
   @apply bg-white dark:bg-gray-950;
@@ -9,4 +30,8 @@ body {
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
   }
+}
+.bold {
+  font-family: "GothamSSm-Book";
+  font-weight: 900;
 }

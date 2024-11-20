@@ -30,6 +30,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <Meta />
         <Links />
+        <link
+          href="https://db.onlinewebfonts.com/c/3ad5698dd1177785b94e84f04fd1632f?family=GothamSSm-Book"
+          rel="stylesheet"
+        ></link>
       </head>
       <body>
         {children}

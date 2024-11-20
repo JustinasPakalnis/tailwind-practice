@@ -4,16 +4,18 @@ export default {
   content: ["./app/**/{**,.client,.server}/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      colors: {
+        "custom-gray": "#f7f7f8",
+        "letter-blue": "#00285a",
+        "real-green": "#0ccca2",
+      },
       fontFamily: {
-        sans: [
-          "Inter",
-          "ui-sans-serif",
-          "system-ui",
+        gotham: [
+          "GothamSSm-Book",
+          "Helvetica Neue",
+          "Arial",
+          "Helvetica",
           "sans-serif",
-          "Apple Color Emoji",
-          "Segoe UI Emoji",
-          "Segoe UI Symbol",
-          "Noto Color Emoji",
         ],
       },
     },
