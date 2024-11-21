@@ -4,7 +4,7 @@ import Triangle from "~/public/Triangle";
 import Lock from "~/public/Lock";
 export default function Header() {
   return (
-    <header className="sticky top-0 z-10 flex h-16 items-center justify-center gap-[107px] bg-white align-middle font-gotham text-base text-gray-500">
+    <header className="sticky top-0 z-50 flex h-16 items-center justify-center gap-[107px] bg-white align-middle font-gotham text-base text-gray-500 shadow-lg">
       <Logo className="h-[33px] w-[113px] cursor-pointer"></Logo>
       <nav className="flex gap-7 text-[14px]">
         <div className="flex items-center gap-2">

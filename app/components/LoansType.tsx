@@ -36,7 +36,7 @@ export default function LoansType() {
               </li>
             </ul>
           </div>
-          <button className="bg-real-green cursor-pointer rounded-lg px-24 py-5 font-bold text-white">
+          <button className="bg-real-green hover:bg-real-green2 transition-duration-700 cursor-pointer rounded-lg px-24 py-5 font-bold text-white transition-all">
             Plačiau
           </button>
         </div>
