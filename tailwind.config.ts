@@ -4,6 +4,9 @@ export default {
   content: ["./app/**/{**,.client,.server}/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      boxShadow: {
+        "custom-shadow": "-4px 4px 20px #0000000d",
+      },
       colors: {
         "custom-gray": "#f7f7f8",
         "custom-gray2": "#eeeff2",
