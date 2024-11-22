@@ -4,9 +4,9 @@ export default function NewsLetter() {
     <section className="flex flex-col">
       <div className="flex justify-center pt-20">
         <div className="flex w-[1010px] items-center gap-8">
-          <span className="border-real-green h-24 rounded-lg border-2"></span>
+          <span className="h-24 rounded-lg border-2 border-real-green"></span>
           <div className="flex flex-col gap-3">
-            <h2 className="text-letter-blue bold font-gotham text-[43px]">
+            <h2 className="bold font-gotham text-[43px] text-letter-blue">
               „Bigbank“ naujienos
             </h2>
           </div>
@@ -19,7 +19,7 @@ export default function NewsLetter() {
             data-v-cc140ee1=""
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
-            className="fill-real-green group-hover:fill-real-green2 h-6"
+            className="h-6 fill-real-green group-hover:fill-real-green2"
           >
             <path
               d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"
@@ -46,12 +46,12 @@ export default function NewsLetter() {
                 <p className="text-white">4 min</p>
               </div>
             </div>
-            <p className="text-real-green2 flex items-center gap-4 pt-10 text-xl font-semibold">
+            <p className="flex items-center gap-4 pt-10 text-xl font-semibold text-real-green2">
               Plačiau
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
-                className="fill-real-green2 h-6"
+                className="h-6 fill-real-green2"
               >
                 <path
                   d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"
@@ -78,12 +78,12 @@ export default function NewsLetter() {
                 <p className="text-white">2 min</p>
               </div>
             </div>
-            <p className="text-real-green2 flex items-center gap-4 pt-10 text-xl font-semibold">
+            <p className="flex items-center gap-4 pt-10 text-xl font-semibold text-real-green2">
               Plačiau
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
-                className="fill-real-green2 h-6"
+                className="h-6 fill-real-green2"
               >
                 <path
                   d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"
@@ -100,7 +100,7 @@ export default function NewsLetter() {
               <p className="font-thin">-</p>
               <p className="text-gray-500">3 min</p>
             </div>
-            <h2 className="text-fake-black text-[28px] leading-none tracking-wider">
+            <h2 className="text-[28px] leading-none tracking-wider text-fake-black">
               Kaip paruošti automobilį žiemai? (+ ATMINTINĖ)
             </h2>
             <p className="text-gray-500">2024 m. spalio 28 d.</p>
@@ -111,7 +111,7 @@ export default function NewsLetter() {
               <p className="font-thin">-</p>
               <p className="text-gray-500">2 min</p>
             </div>
-            <h2 className="text-fake-black text-[28px] leading-none tracking-wider">
+            <h2 className="text-[28px] leading-none tracking-wider text-fake-black">
               Lietuvių automobilių parkas ir toliau sensta, o elektromobiliai –
               niekaip neprigyja rinkoje
             </h2>
@@ -123,7 +123,7 @@ export default function NewsLetter() {
               <p className="font-thin">-</p>
               <p className="text-gray-500">2 min</p>
             </div>
-            <h2 className="text-fake-black text-[28px] leading-none tracking-wider">
+            <h2 className="text-[28px] leading-none tracking-wider text-fake-black">
               Bendrabutis, buto nuoma ar buto pirkimas – ką rinktis studentui?
             </h2>
             <p className="text-gray-500">2024 m. spalio 23 d.</p>
@@ -133,16 +133,3 @@ export default function NewsLetter() {
     </section>
   );
 }
-
-// Patarimai
-// 3 min
-// Kaip paruošti automobilį žiemai? (+ ATMINTINĖ)
-// 2024 m. spalio 28 d.
-// Rinkos įžvalgos
-// 2 min
-// Lietuvių automobilių parkas ir toliau sensta, o elektromobiliai – niekaip neprigyja rinkoje
-// 2024 m. spalio 25 d.
-// Patarimai
-// 2 min
-// Bendrabutis, buto nuoma ar buto pirkimas – ką rinktis studentui?
-// 2024 m. spalio 23 d.
