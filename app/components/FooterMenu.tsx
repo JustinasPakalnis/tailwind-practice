@@ -45,7 +45,7 @@ export default function FooterMenu() {
       </div>
       <div className="flex w-[176px] flex-col">
         <h2 className="text-sm font-semibold">Informacija klientams</h2>
-        <ul className="flex flex-col gap-6 py-7 text-sm font-normal">
+        <ul className="flex cursor-pointer flex-col gap-6 py-7 text-sm font-normal">
           <li>Apie „Bigbank“</li>
           <li>Investuotojams</li>
           <li>Naudinga informacija</li>
