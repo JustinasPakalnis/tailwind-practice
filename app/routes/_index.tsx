@@ -7,7 +7,7 @@ import Plans from "~/components/Plans";
 import NewsLetter from "~/components/NewsLetter";
 import Duk from "~/components/Duk";
 import ContactUs from "~/components/ContactUs";
-
+import FooterMenu from "~/components/FooterMenu";
 export const meta: MetaFunction = () => {
   return [
     { title: "Tailwind practice" },
@@ -27,6 +27,7 @@ export default function Index() {
       <NewsLetter />
       <Duk />
       <ContactUs />
+      <FooterMenu />
       <section className="h-[1000px] bg-white"></section>
     </main>
   );
