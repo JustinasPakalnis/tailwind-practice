@@ -1,3 +1,6 @@
+import Email from "~/public/Email";
+import Phone from "~/public/PhoneLogo";
+
 export default function FooterMenu() {
   return (
     <section className="flex justify-center gap-4 bg-custom-gray py-[75px] tracking-wider text-gray-400">
@@ -61,40 +64,62 @@ export default function FooterMenu() {
         </ul>
       </div>
 
-      <div className="flex w-[346px] flex-col">
-        <div className="flex">
-          <div>img</div>
+      <div className="flex w-[346px] flex-col gap-8">
+        <div className="flex gap-3">
+          <div className="flex h-10 w-10 items-center justify-center rounded-full bg-custom-gray2">
+            <Phone className="h-5" />
+          </div>
           <div className="flex flex-col">
-            <p>Skambinkite</p>
-            <p>1388 (privatiems klientams)</p>
+            <p className="text-sm font-semibold text-fake-black">Skambinkite</p>
+            <p className="text-sm text-real-green">
+              1388 (privatiems klientams)
+            </p>
           </div>
         </div>
-        <div className="flex">
-          <div>img</div>
+        <div className="flex gap-3">
+          <div className="flex h-10 w-10 items-center justify-center rounded-full bg-custom-gray2">
+            <Phone className="h-5" />
+          </div>
           <div className="flex flex-col">
-            <p>Skambinant iš užsienio</p>
-            <p>+370 5 205 8788 (privatiems klientams)</p>
+            <p className="text-sm font-semibold text-fake-black">
+              Skambinant iš užsienio
+            </p>
+            <p className="text-sm text-real-green">
+              +370 5 205 8788 (privatiems klientams)
+            </p>
           </div>
         </div>
-        <div className="flex">
-          <div>img</div>
+        <div className="flex gap-3">
+          <div className="flex h-10 w-10 items-center justify-center rounded-full bg-custom-gray2">
+            <Email className="h-[18px]" />
+          </div>
           <div className="flex flex-col">
-            <p>Rašykite</p>
-            <p>info@bigbank.lt (privatiems klientams)</p>
+            <p className="text-sm font-semibold text-fake-black">Rašykite</p>
+            <p className="text-sm text-real-green">
+              info@bigbank.lt (privatiems klientams)
+            </p>
           </div>
         </div>
-        <div className="flex">
-          <div>img</div>
+        <div className="flex gap-3">
+          <div className="flex h-10 w-10 items-center justify-center rounded-full bg-custom-gray2">
+            <Phone className="h-5" />
+          </div>
           <div className="flex flex-col">
-            <p>Skambinkite</p>
-            <p>+370 5 207 0700 (verslo klientams)</p>
+            <p className="text-sm font-semibold text-fake-black">Skambinkite</p>
+            <p className="text-sm text-real-green">
+              +370 5 207 0700 (verslo klientams)
+            </p>
           </div>
         </div>
-        <div className="flex">
-          <div>img</div>
+        <div className="flex gap-3">
+          <div className="flex h-10 w-10 items-center justify-center rounded-full bg-custom-gray2">
+            <Email className="h-5" />
+          </div>
           <div className="flex flex-col">
-            <p>Rašykite</p>
-            <p>verslas@bigbank.lt (verslo klientams)</p>
+            <p className="text-sm font-semibold text-fake-black">Rašykite</p>
+            <p className="text-sm text-real-green">
+              verslas@bigbank.lt (verslo klientams)
+            </p>
           </div>
         </div>
       </div>
